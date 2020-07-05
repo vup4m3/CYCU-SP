@@ -1,0 +1,48 @@
+TEST     start   1000
+(5,20)(2,1)(6,93)
+FIRST    STL     RETADR
+(5,92)(1,46)(5,50)
+CLOOP    JSUB    RDREC
+(5,81)(1,19)(5,68)
+         LDA     LENGTH
+(1,20)(5,51)
+         COMP    ONE
+(1,6)(5,26)
+         JEQ     ENDFIL
+(1,16)(5,34)
+         JSUB    WRREC
+(1,19)(5,87)
+         j       CLOOP
+(1,15)(5,81)
+ENDFIL   LDA     EOF
+(5,34)(1,20)(5,18)
+         STA     BUFFER
+(1,41)(5,42)
+         LDA     THREE
+(1,20)(5,76)
+         STA     LENGTH
+(1,41)(5,51)
+         JSUB    WRREC
+(1,19)(5,87)
+         LDL     RETADR
+(1,24)(5,50)
+         RSUB
+(1,36)
+EOF      BYTE    C'EOF'
+(5,18)(2,3)(4,9)(7,18)(4,9)
+THREE    WORD    3
+(5,76)(2,4)(6,51)
+ZERO     WORD    0
+(5,21)(2,4)(6,48)
+?
+(4,8)
+MOV AX, BX
+(5,43)(5,53)(4,1)(5,54)
+zsdasd,asdasd ZERO
+(5,49)(4,1)(5,24)(5,21)
+EOF
+(5,18)
+,;#'@MOV  ,  ap,ple  1000, 10,00  X.......             iasdkasjdk,BX
+(4,1)(4,7)(4,12)(4,9)(5,6)(4,1)(5,9)(4,1)(5,22)(6,93)(4,1)(6,97)(4,1)(6,96)
+0
+(6,48)

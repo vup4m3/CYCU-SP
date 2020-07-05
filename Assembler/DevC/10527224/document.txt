@@ -1,0 +1,20 @@
+開發平台
+
+    Window 10
+
+使用開發環境
+
+    Dev C++, visual studio 2017
+
+所選擇的組合語言( x86, SIC )
+
+    SIC
+
+說明你的程式設計(功\能，流程，使用的data structure)
+
+    功能： 讀入文字儅，將原始碼做切Token，切完後做語法分析，確定格式正確，分好symbol, instruction, operand1, operand2。判斷symbol，若有就將symbol放入configuration Table，處理table中被當做operand的symbol，填上地址。
+    處理instruction，確定instruction的format，進入處理該format的function，判斷operand的種類，symbol就到configuration Table找地址，找不到就先佔存在Table裡。literal則是相同的做法，但改成literal table。然後翻機械碼。
+     
+未完成的功能
+    
+    間接定址。

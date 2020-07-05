@@ -1,0 +1,12 @@
+﻿  Compiler.cpp
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(29): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(115): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(196): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(231): warning C4553: '==': 未使用運算式結果; 您是否想要 '='?
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(309): warning C4101: 'dimensionality': 未參考的區域變數
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(349): warning C4101: 'type': 未參考的區域變數
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(458): warning C4101: 'num': 未參考的區域變數
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(689): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(690): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\compiler\vs studio\compiler\compiler\compiler.cpp(743): warning C4018: '<': signed/unsigned 不相符
+  Compiler.vcxproj -> D:\文件\中原\系統程式\Project\Compiler\vs studio\Compiler\Debug\Compiler.exe

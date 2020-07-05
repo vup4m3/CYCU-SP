@@ -1,0 +1,19 @@
+0000	COPY    START 0          		
+0000		var1	RESW	1             		
+0003		var2	RESB	12            		
+000C		var3  EQU  12           		
+000F	add var1                 	180000
+0012	+addf var2               	580003
+0015	addr a,b                 	900000Error: Error operand !!
+0018	+and var1                	400000
+001B	clear b                  	B40000
+001E	comp 0                   	280000
+0021	+compf var3              	88000C
+0024	compr b,a                	A00000Error: Error operand !!
+	.this is comment         		
+0027	div var1                 	240000
+002A	divf var1                	640000
+002D	divr l,s                 	9C0000Error: Error operand !!
+0030	fix                      	C40000
+0033	float                    	C00000
+	END	FIRST                		

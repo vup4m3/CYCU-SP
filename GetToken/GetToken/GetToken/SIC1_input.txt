@@ -1,0 +1,5146 @@
+TEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adad
+
+TEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adadTEST     START   1000 'ppap
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     EN+DFIL
+         JSUB    WRREC
+         J    +   CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA-     LENGTH
+         JSUB -   WRREC;
+         LDL     RETADR ;
+         RSUB
+
+EOF      BYTE    C'EOF'
+EOF      BYTE    C'Eof'
+EOF      BYTE    C'EOF HELLO'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5698'
+EOF      BYTE    X'5699'
+EOF      BYTE    X'5AB'
+THREE    WORD    3
+ZERO     WORD    0
+ZERO     WORD    A
+ZERO     WORD    1.0
+ZERO     WORD    ABC.0
+ZERO     WORD    ABD.0
+ZERO     WORD    ABE.0
+ZERO     WORD    ABF.0
+EOF      BYTE    X'569F'
+EOF BYTE C'Green'
+EOF BYTE C'Grefn'
+EOF BYTE C'Gregn'
+EOF BYTE C'Grehn'
+EOF BYTE C'Grein'
+1adada a adad

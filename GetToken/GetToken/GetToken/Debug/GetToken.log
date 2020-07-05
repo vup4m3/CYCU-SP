@@ -1,0 +1,11 @@
+﻿  GetToken.cpp
+d:\文件\中原\系統程式\project\gettoken\gettoken\gettoken\gettoken.cpp(37): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\gettoken\gettoken\gettoken\gettoken.cpp(51): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\gettoken\gettoken\gettoken\gettoken.cpp(139): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\gettoken\gettoken\gettoken\gettoken.cpp(141): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\gettoken\gettoken\gettoken\gettoken.cpp(157): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\gettoken\gettoken\gettoken\gettoken.cpp(274): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\gettoken\gettoken\gettoken\gettoken.cpp(289): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\gettoken\gettoken\gettoken\gettoken.cpp(291): warning C4018: '<': signed/unsigned 不相符
+d:\文件\中原\系統程式\project\gettoken\gettoken\gettoken\gettoken.cpp(32): warning C4715: 'Table::inputTable': 不是所有控制路徑都傳回值
+  GetToken.vcxproj -> D:\文件\中原\系統程式\Project\GetToken\GetToken\Debug\GetToken.exe

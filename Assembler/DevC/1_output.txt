@@ -1,0 +1,19 @@
+0000	COPY    START 0          		
+0000		var1	RESW	1             		
+0003		var2	RESB	12            		
+000C		var3  EQU  12           		
+000F	add var1                 	1B2FEE
+0012	+addf var2               	5B100003
+0016	addr a,b                 	9003
+0018	+and var1                	43100000
+001C	clear b                  	B430
+001E	comp 0                   	2B0000
+0021	+compf var3              	8B10000C
+0025	compr b,a                	A030
+	.this is comment         		
+0027	div var1                 	272FD6
+002A	divf var1                	672FD3
+002D	divr l,s                 	9C24
+002F	fix                      	C4
+0030	float                    	C0
+	END	FIRST                		

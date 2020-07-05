@@ -1,0 +1,24 @@
+TEST     sTart   1000
+FIRST    STL     RETADR
+CLOOP    JSUB    RDREC
+         LDA     LENGTH
+         COMP    ONE
+         JEQ     ENDFIL
+         JSUB    WRREC
+         j       CLOOP
+ENDFIL   LDA     EOF
+         STA     BUFFER
+         LDA     THREE
+         STA     LENGTH
+         JSUB    WRREC
+         LDL     RETADR
+         RSUB
+EOF      BYTE    C'EOF''
+THREE    WORD    3
+ZERO     WORD    0
+?
+MOV AX, BX
+zsdasd,asdasd ZERO
+EOF
+,;#'@MOV  ,  ap,ple  1000, 10,00  X.......             iasdkasjdk,BX
+0

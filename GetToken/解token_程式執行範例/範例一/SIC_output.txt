@@ -1,0 +1,40 @@
+TEST     START   1000
+(5,20)(5,98)(6,93)
+FIRST    STL     RETADR
+(5,92)(5,43)(5,50)
+CLOOP    JSUB    RDREC
+(5,81)(5,8)(5,68)
+         LDA     LENGTH
+(5,9)(5,51)
+         COMP    ONE
+(5,3)(5,26)
+         JEQ     ENDFIL
+(5,24)(5,34)
+         JSUB    WRREC
+(5,8)(5,87)
+         J       CLOOP
+(5,74)(5,81)
+ENDFIL   LDA     EOF
+(5,34)(5,9)(5,18)
+         STA     BUFFER
+(5,32)(5,42)
+         LDA     THREE
+(5,9)(5,76)
+         STA     LENGTH
+(5,32)(5,52)
+         JSUB    WRREC
+(5,8)(5,87)
+         LDL     RETADR
+(5,21)(5,50)
+         RSUB
+(5,16)
+EOF      BYTE    C'EOF'
+(5,18)(5,10)(5,63)
+THREE    WORD    3
+(5,76)(2,2)(6,51)
+ZERO     WORD    0
+(5,22)(2,2)(6,48)
+.
+(4,5)
+qweqweqwe
+(5,11)
